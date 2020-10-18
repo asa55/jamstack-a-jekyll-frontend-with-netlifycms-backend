@@ -8,6 +8,10 @@
     <!-- prettier-ignore -->
     {% feed_meta %}
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  </head>
+  <body>
+    {% include navigation.html %}
+    {{ content }}
     <script>
       if (window.netlifyIdentity) {
         window.netlifyIdentity.on("init", user => {
@@ -19,9 +23,5 @@
         });
       }
     </script>
-  </head>
-  <body>
-    {% include navigation.html %}
-    {{ content }}
   </body>
 </html>
