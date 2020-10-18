@@ -6,12 +6,13 @@ https://main--cranky-ride-6119ee.netlify.app/
 
 ## What am I doing?
 
-Trying out a Jekyll+NetlifyCMS Jamstack (think full-stack, but awesome) [based on this project](https://github.com/adamwatters/jekyll-tutorial-with-netlify-cms/tree/master) but with a few important fixes:
+Trying out a [Jekyll](https://jekyllrb.com/)+[NetlifyCMS](https://www.netlifycms.org/) Jamstack (think full-stack, but awesome) [based on this project](https://github.com/adamwatters/jekyll-tutorial-with-netlify-cms/tree/master) but with a few important fixes:
 1. admin/_config.yml, line 5   --> branch: main
 2. admin/_config.yml, line 58  --> name: "layout",
 
 ## To replicate this project
-You'll need a Netlify account. It serves three primary purposes:
+[Base instructions are located here](https://www.netlifycms.org/docs/jekyll/)
+[You'll need a Netlify account](https://www.netlify.com/). It serves three primary purposes:
 1. Deploys website [shown here](https://main--cranky-ride-6119ee.netlify.app/)
 2. Integrates with GitHub for seamless CI/CD
 3. Lets you log in and add blog posts using a graphical web interface thru the NetlifyCMS admin panel as a guest (instead of requiring a developer to get involved - no source code modifications required! Pretty nifty, eh?)
