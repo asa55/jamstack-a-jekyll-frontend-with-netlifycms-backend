@@ -1,3 +1,8 @@
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
 collections:
   authors:
     output: true
