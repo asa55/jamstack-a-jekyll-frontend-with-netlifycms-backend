@@ -11,7 +11,9 @@ Trying out a [Jekyll](https://jekyllrb.com/)+[NetlifyCMS](https://www.netlifycms
 2. admin/_config.yml, line 58  --> name: "layout",
 
 ## To replicate this project
+
 [Base instructions are located here](https://www.netlifycms.org/docs/jekyll/)
+
 [You'll need a Netlify account](https://www.netlify.com/). It serves three primary purposes:
 1. Deploys website [shown here](https://main--cranky-ride-6119ee.netlify.app/)
 2. Integrates with GitHub for seamless CI/CD
